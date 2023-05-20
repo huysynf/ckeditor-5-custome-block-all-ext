@@ -34,7 +34,7 @@ export default class SimpleBoxEditing2 extends Plugin {
             allowIn: 'simpleBox2',
 
             // Allow content which is allowed in blocks (i.e. text with attributes).
-            allowContentOf: '$block'
+            allowContentOf: '$root'
         } );
 
         schema.register( 'simpleBoxDescription2', {
